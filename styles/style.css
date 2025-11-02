@@ -1,3 +1,5 @@
+/* Achievements Page */
+.achievements-section {
 /* Skills Page */
 .skills-section {
   max-width: 800px;
@@ -8,6 +10,28 @@
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
+.achievements-section h2 {
+  color: #333;
+  border-bottom: 2px solid #4a90e2;
+  display: inline-block;
+  margin-top: 25px;
+  padding-bottom: 5px;
+}
+
+.achievement-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.achievement-list li {
+  background-color: #f0f6ff;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-left: 4px solid #4a90e2;
+  border-radius: 6px;
+  line-height: 1.5;
+}
 .skills-section h2 {
   margin-top: 30px;
   color: #333;
