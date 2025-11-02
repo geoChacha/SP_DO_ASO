@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Showcase Hub — Student Profile</title>
+
+
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <h1 class="site-title">Showcase Hub</h1>
+      <div class="group-name">Team: Neon Orchard</div>
+    </div>
+
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="showcase.html">Showcase</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Student Profile</h2>
+      <p>Overview of the student — photo, short bio, and education.</p>
+    </section>
+
+    <section class="about-team profile-section">
+      <div class="profile-card">
+        <div class="profile-photo-wrap">
+          <img src="https://media.licdn.com/dms/image/v2/D4D03AQGFGd6jy5SykQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1701654920148?e=1763596800&v=beta&t=FJMjfAv2XkdAg5CUpHoEhur_7D86XJMDfBYaHulvdJw" alt="Student Photo" class="profile-photo" onerror="this.onerror=null;this.src='https://via.placeholder.com/240x240?text=Photo'">
+        </div>
+
+        <div class="profile-content">
+          <h3 class="profile-name">Asad Ali</h3>
+          <p class="profile-role">Final Year — BS Software Engineering</p>
+
+          <div class="profile-bio">
+            <h4>Bio</h4>
+            <p>
+              Asad is a passionate game-dev student who focuses on UX-driven mechanics and lightweight
+              procedural systems. he enjoys rapid prototyping, pixel art, and music-driven gameplay.
+            </p>
+          </div>
+
+          <div class="education">
+            <h4>Educational Background</h4>
+            <ul class="education-list">
+              <li><strong>UCP Lahore</strong> — BS Software Engineering (expected 2026)</li>
+              <li><strong>Intermediate</strong> — ICS, PGC (2022)</li>
+              <li><strong>Matriculation</strong> — Science, Rasti High School (2020)</li>
+            </ul>
+          </div>
+
+          <div class="profile-meta">
+            <span>Email: <a href="mailto:ambtime3456@gmail.com">ambtime3456@gmail.com</a></span>
+            <span> • </span>
+            <span>Location: Lahore, Pakistan</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>&copy; <span id="year"></span> Showcase Hub — Neon Orchard</small>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
